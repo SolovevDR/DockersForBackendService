@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  redis:
+    env_file: .redis.env
+    build: .
+    container_name: redis_container
+    ports:
+      - "6380:6379"
+    volumes:
+      - ./redisdata:/data
+    restart: unless-stopped
