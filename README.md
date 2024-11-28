@@ -13,18 +13,20 @@ This is done for a better understanding of the project.
 
 ### The repository contains the following components:
 * **[About](#About)**
-  * **[PostgresSQL Start](##PostgresSQL Start)**
-  * **[Create alembic migration](##Create alembic migration)**
-  * **[PostgresSQL Down](##PostgresSQL Down)**
+  * **[PostgresSQL Start]([#PostgresSQL Start](#PostgresSQL Start))**
+  * **[Create alembic migration]([#Create alembic migration](#Create alembic migration))**
+  * **[PostgresSQL Down]([#PostgresSQL Down](#PostgresSQL Down))**
 * **[PostgresSQL](#PostgresSQL)**
 * **[Redis](#Redis)**
-  * **[Redis Start](##Redis Start)**
-  * **[Redis Down](##Redis Down)**
+  * **[Redis Start]([#Redis Start](#Redis Start))**
+  * **[Redis Down]([#Redis Down](#Redis Down))**
 
 ---
 
 
 ## PostgresSQL
+---
+---
 
 ### PostgresSQL Start
 
@@ -56,6 +58,7 @@ cd PostgresSQL
 ```shell
 docker-compose up -d --build
 ```
+---
 
 ### Create alembic migration
 
@@ -105,6 +108,7 @@ docker-compose down -v
 ```shell
 docker-compose up -d --build
 ```
+---
 
 ### PostgresSQL Down
 1. Go to the directory `PostgresSQL`
@@ -118,6 +122,8 @@ docker-compose down -v
 
 
 ## Redis
+---
+---
 
 ### Redis Start
 
@@ -138,6 +144,7 @@ cd PostgresSQL
 docker-compose up -d --build
 ```
 
+---
 ### Redis Down
 
 1. Go to the directory `Redis`
