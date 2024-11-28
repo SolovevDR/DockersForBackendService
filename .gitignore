@@ -1,3 +1,5 @@
 .idea
 PostgresSQL/database/__pycache__
 PostgresSQL/database/.idea
+venv
+redis_venv
