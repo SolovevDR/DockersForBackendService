@@ -13,13 +13,13 @@ This is done for a better understanding of the project.
 
 ### The repository contains the following components:
 * **[About](#About)**
-  * **[PostgresSQL Start]([#PostgresSQL Start](#PostgresSQL Start))**
-  * **[Create alembic migration]([#Create alembic migration](#Create alembic migration))**
-  * **[PostgresSQL Down]([#PostgresSQL Down](#PostgresSQL Down))**
+    * PostgresSQL Start ([#PostgresSQL Start](#PostgresSQL Start))
+    * Create alembic migration ([#Create alembic migration](#Create alembic migration))
+    * PostgresSQL Down ([#PostgresSQL Down](#PostgresSQL Down))
 * **[PostgresSQL](#PostgresSQL)**
 * **[Redis](#Redis)**
-  * **[Redis Start]([#Redis Start](#Redis Start))**
-  * **[Redis Down]([#Redis Down](#Redis Down))**
+    * Redis Start ([#Redis Start](#Redis Start))
+    * Redis Down ([#Redis Down](#Redis Down))
 
 ---
 
