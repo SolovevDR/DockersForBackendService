@@ -18,14 +18,15 @@ This is done for a better understanding of the project.
     * [Create-alembic-migration](#Create-alembic-migration)
     * [PostgresSQL-Down](#PostgresSQL-Down)
 * **[Redis](#Redis)**
-    * [#Redis-Start](#Redis-Start)
-    * [#Redis-Down](#Redis-Down)
-
----
+    * [Redis-Start](#Redis-Start)
+    * [Redis-Down](#Redis-Down)
+* **[Example](#Example)**
+    * [PostgresSQL example](#PostgresSQL example)
+    * [Redis example](#Redis example)
 
 
 ## PostgresSQL
----
+
 ---
 
 ### PostgresSQL Start
@@ -155,3 +156,23 @@ cd Redis
 ```shell
 docker-compose down
 ```
+---
+
+## Example
+
+The simple example of use containers using python script. 
+
+### PostgresSQL example
+Contains examples of the following scripts:
+* add_user
+* select_users
+* update_user
+* add_role
+* select_roles
+* update_role
+
+### Redis example
+Contains examples of the following scripts:
+* ping redis
+* add_data
+* select_data
