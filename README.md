@@ -21,8 +21,8 @@ This is done for a better understanding of the project.
     * [Redis-Start](#Redis-Start)
     * [Redis-Down](#Redis-Down)
 * **[Example](#Example)**
-    * [PostgresSQL-example](#PostgresSQL example)
-    * [Redis-example](#Redis example)
+    * [PostgresSQL-example](#PostgresSQL-example)
+    * [Redis-example](#Redis-example)
 
 
 ## PostgresSQL
